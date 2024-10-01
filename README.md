@@ -16,9 +16,9 @@ Elasticsearch or Pinecone: For document indexing and retrieval.
 Streamlit or FastAPI: To build a frontend or REST API interface.
 GPU: For model inference and optimization.
 
-# pip3 install langchain openai transformers sentence-transformers faiss-cpu pinecone-client elasticsearch streamlit
+pip3 install langchain openai transformers sentence-transformers faiss-cpu pinecone-client elasticsearch streamlit
 
-Step-by-Step Breakdown of the Code:
+## Step-by-Step Breakdown of the Code:
 Document Loading and Splitting:
 
 The script uses LangChain's PyPDFLoader to load a PDF document.
@@ -42,7 +42,7 @@ Streamlit Interface:
 
 The user interface is built using Streamlit, allowing users to upload a PDF, submit queries, and view generated responses.
 
-Example Flow:
+## Example Flow:
 User uploads a PDF document.
 The system loads and processes the document, creating chunks and embedding them for future queries.
 User submits a query (e.g., "What is the process of RAG?").
@@ -50,7 +50,7 @@ The system checks if the query is cached. If cached, it returns the cached respo
 If not cached, the system retrieves the most relevant document chunks and uses GPT-3.5 to generate a response based on those chunks.
 The generated response is displayed to the user and cached for future queries.
 
-How to Run the Code:
+## How to Run the Code:
 Set up OpenAI API Key: Replace "your-openai-api-key" with your actual OpenAI API key.
 Install Redis: Make sure you have Redis installed locally or hosted remotely.
 Run the Code: Use streamlit run your_script.py to launch the web interface locally.
