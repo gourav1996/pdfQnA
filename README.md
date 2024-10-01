@@ -51,6 +51,6 @@ If not cached, the system retrieves the most relevant document chunks and uses G
 The generated response is displayed to the user and cached for future queries.
 
 ## How to Run the Code:
-Set up OpenAI API Key: Replace "your-openai-api-key" with your actual OpenAI API key.
-Install Redis: Make sure you have Redis installed locally or hosted remotely.
-Run the Code: Use streamlit run your_script.py to launch the web interface locally.
+* Set up OpenAI API Key: Replace "your-openai-api-key" with your actual OpenAI API key.
+* Install Redis: Make sure you have Redis installed locally or hosted remotely.
+* Run the Code: Use streamlit run your_script.py to launch the web interface locally.
