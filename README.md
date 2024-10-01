@@ -1,20 +1,21 @@
 # pdfQnA
-RAG Application 
+## RAG Application 
 The project will implement a RAG-based Question-Answering (QA) System that retrieves relevant documents from a knowledge base and generates a context-aware response using a language model. We'll focus on:
 
-Document Loading & Indexing (Chunking, Vector Embeddings, and Index Optimization)
-Retriever (BM25, Vector Search, or Hybrid Retrieval)
-Query Processing (Query Expansion and Rewriting)
-Language Model (Prompt Engineering, Fine-tuning, and Hallucination Mitigation)
-Caching, Async Processing, and Efficiency Optimization
-Answer Post-Processing (Answer Validation, Summarization)
-Monitoring & Human-in-the-Loop
-Tech Stack
-LangChain: For document loading, retrieval, and query management.
-Hugging Face or OpenAI GPT: For the generative language model.
-Elasticsearch or Pinecone: For document indexing and retrieval.
-Streamlit or FastAPI: To build a frontend or REST API interface.
-GPU: For model inference and optimization.
+* Document Loading & Indexing (Chunking, Vector Embeddings, and Index Optimization)
+* Retriever (BM25, Vector Search, or Hybrid Retrieval)
+* Query Processing (Query Expansion and Rewriting)
+* Language Model (Prompt Engineering, Fine-tuning, and Hallucination Mitigation)
+* Caching, Async Processing, and Efficiency Optimization
+* Answer Post-Processing (Answer Validation, Summarization)
+* Monitoring & Human-in-the-Loop
+
+## Tech Stack
+* LangChain: For document loading, retrieval, and query management.
+* Hugging Face or OpenAI GPT: For the generative language model.
+* Elasticsearch or Pinecone: For document indexing and retrieval.
+* Streamlit or FastAPI: To build a frontend or REST API interface.
+* GPU: For model inference and optimization.
 
 pip3 install langchain openai transformers sentence-transformers faiss-cpu pinecone-client elasticsearch streamlit
 
